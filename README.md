@@ -18,7 +18,7 @@ This is helpful to check visually if the Read nodes are updated or not in your N
 
 
 
-
+<br>
 <h1>Version Pattern ✅</h1>
 
 The validation starts by looking for a version pattern in the file path of a Read node. This pattern is created using **Regular Expression**, so that any type of versioning (of the most used in the industry) is recognized. 
@@ -28,7 +28,7 @@ If the version captured doesn't match the pattern, the node will remain the defa
 
 
 
-
+<br>
 <h1>Folders/Files validation 📁📄</h1>
 
 Some examples of folders and files validation, if the version pattern is found:
@@ -48,3 +48,22 @@ Some examples of folders and files validation, if the version pattern is found:
 
 > [!WARNING]
 > Regardless of the file extension or if the folder is empty, ReadChecker will validate the version pattern found in the file path only.
+
+
+
+<br>
+<h1>Assets Library path 🔍</h1>
+
+To set the color for the Assets Library, open the ReadChecker Settings panel and update the Assets Path.
+
+![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/089f6236-408a-4f30-b33c-15813d636c46)
+
+> [!NOTE]
+> **ReadChecker** will not validate the versions for the Read nodes that contain the Assets Path, they will be only set to BLUE color.
+
+
+<br>
+<h1>Nuke and Python compatibility ☢️🐍</h1>
+
+**ReadChecker** was written in **Python 2.7.16** and **3.10.5**, so it's designed to work with all versions of Nuke.
+
