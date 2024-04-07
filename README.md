@@ -18,6 +18,7 @@ This is helpful to check visually if the Read nodes are updated or not in your N
 
 
 
+
 <br>
 <h1>Version Pattern ✅</h1>
 
@@ -25,6 +26,7 @@ The validation starts by looking for a version pattern in the file path of a Rea
 If the version captured doesn't match the pattern, the node will remain the default color.
 
 ![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/9d12ede6-2724-4fd1-b3b5-2ac66c7dab53)
+
 
 
 
@@ -47,7 +49,8 @@ Some examples of folders and files validation, if the version pattern is found:
 
 
 > [!WARNING]
-> Regardless of the file extension or if the folder is empty, ReadChecker will validate the version pattern found in the file path only.
+> _Regardless of the file extension or if the folder is empty, **ReadChecker** will validate the version pattern found in the file path only._
+
 
 
 
@@ -59,7 +62,7 @@ To set the color for the Assets Library, open the ReadChecker Settings panel and
 ![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/089f6236-408a-4f30-b33c-15813d636c46)
 
 > [!NOTE]
-> **ReadChecker** will not validate the versions for the Read nodes that contain the Assets Path, they will be only set to BLUE color.
+> _**ReadChecker** will not validate the versions for the Read nodes that contain the Assets Path, they will be only set to BLUE color._
 
 
 <br>
@@ -67,3 +70,22 @@ To set the color for the Assets Library, open the ReadChecker Settings panel and
 
 **ReadChecker** was written in **Python 2.7.16** and **3.10.5**, so it's designed to work with all versions of Nuke.
 
+
+
+
+<br>
+<h1>Performance 📊</h1>
+
+By default, this tool utilizes the **updateUI()** callback, which means that all Read nodes will be validated after any changes to the script. Don't worry about performance issues, this callback is designed to run as a low-priority process. Additionally, it uses the **OnScriptLoad()** and **OnScriptSave()** callbacks to validate all Read nodes just once when the Nuke script is opened/saved.
+
+If you prefer to not use the callbacks, you can run the tool whenever you want by using the **Validate now** button.
+
+![Screenshot 2023-08-12 015704](https://github.com/danilodelucio/ReadChecker/assets/47226196/994bc020-6874-404f-ac53-876fe65fde86)
+
+You can also turn on/off the callbacks by the ReadChecker Settings panel:
+
+![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/382ea978-4dd9-4eff-b591-94bd156974d1)
+
+> [!IMPORTANT]
+> _For now, the RED color for nodes with Error doesn’t work using the UpdateUI function._<br>
+> _For more information about callbacks, please visit the [NUKE Python Developer’s Guide](https://learn.foundry.com/nuke/developers/latest/pythonreference/callbacks.htm) page._
