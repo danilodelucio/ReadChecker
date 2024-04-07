@@ -89,3 +89,53 @@ You can also turn on/off the callbacks by the ReadChecker Settings panel:
 > [!IMPORTANT]
 > _For now, the RED color for nodes with Error doesn’t work using the UpdateUI function._<br>
 > _For more information about callbacks, please visit the [NUKE Python Developer’s Guide](https://learn.foundry.com/nuke/developers/latest/pythonreference/callbacks.htm) page._
+
+
+
+
+<br>
+<h1>Troubleshooting 🛠️</h1>
+
+If you have feedback, suggestions, or feature requests, please visit the [Discussions](https://github.com/danilodelucio/ReadChecker/discussions) page and create a **New Discussion**. <br>
+For bugs, please go to the [Issues](https://github.com/danilodelucio/ReadChecker/issues) page and create a **New Issue**.
+
+
+
+
+<br>
+<h1>Installation ⚙️</h1>
+
+- Paste the **ReadChecker** folder into your main **.nuke** directory (usually inside `~/user/.nuke`);
+- Add `nuke.pluginAddPath('./ReadChecker')` into your **init.py** (if you don’t have one, you can create it);
+- Enjoy! 😍
+
+![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/19e35133-d707-4cb1-9557-5dbd0d1723f9)
+
+![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/317cbc19-8b78-42a0-9180-e0c344aca1f9)
+
+<h1>License📝</h1>
+
+- You are free to use this tool for both non-commercial and commercial purposes (it's completely free!);
+- You cannot claim to be the original author of this tool or sell it as your own product;
+
+
+
+
+<br>
+<h1>Special Thanks🙏</h1>
+
+Special thanks to Henrique Reginato, Magno Borgo, and Gustavo Goncalves for testing this tool and providing valuable feedback for improvement. Also, thanks to Juliana Chen for her support and encouragement.
+
+
+
+
+<br>
+<h1>Support me! 🥺</h1>
+
+![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/eededd07-ec9c-45aa-9040-97d0a84a3699)
+
+If you find this tool useful, please consider supporting me on [Buy Me A Coffee](https://www.buymeacoffee.com/danilodelucio). ☕ <br>
+You can also share this tool or send me a positive message, it would help me in the same way.
+
+
+<h1>Cheers! 🥂</h1>
