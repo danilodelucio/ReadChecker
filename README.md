@@ -122,19 +122,27 @@ For bugs, please go to the [Issues](https://github.com/danilodelucio/ReadChecker
 
 
 <br>
-<h1>Special Thanks🙏</h1>
+
+# Special Thanks🙏
 
 Special thanks to Henrique Reginato, Magno Borgo, and Gustavo Goncalves for testing this tool and providing valuable feedback for improvement. Also, thanks to Juliana Chen for her support and encouragement.
 
+<br>
 
+# Supporters 💪
 
+-
 
 <br>
-<h1>Support me! 🥺</h1>
+
+# Support me! 🥺
 
 ![image](https://github.com/danilodelucio/ReadChecker/assets/47226196/eededd07-ec9c-45aa-9040-97d0a84a3699)
 
 If you find this tool useful, please consider supporting me on [Buy Me A Coffee](https://www.buymeacoffee.com/danilodelucio). ☕ <br>
+
+> _If you donate any amount, please mention this tool (also your preference name if you want to), so your name will appear in the Supporters list above._
+
 You can also share this tool or send me a positive message, it would help me in the same way.
 
 
