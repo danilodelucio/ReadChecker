@@ -131,7 +131,7 @@ Special thanks to Henrique Reginato, Magno Borgo, and Gustavo Goncalves for test
 
 # Supporters 💪
 
--
+- Dario Spinelli;
 
 <br>
 
